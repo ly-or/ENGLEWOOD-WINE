@@ -203,6 +203,7 @@ button:hover{
     font-size: 40px;
     font-weight: 500;
     font-family: "Lora", sans-serif;
+    overflow-x: visible;
 }
 
 .merchant-text h6{
@@ -222,7 +223,7 @@ button:hover{
     font-weight: 500;
     line-height: 29.26px;
     text-align: center;
-    width: 250px;
+    width: 100%;
     
     color:rgba(32, 32, 32, 1);
 
@@ -311,6 +312,11 @@ button:hover{
     background-image: none;
     padding: 20px;
 
+
+}
+
+.sl2> *{
+    overflow-y: hidden;
 
 }
 .view-more{
