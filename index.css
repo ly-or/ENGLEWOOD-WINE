@@ -260,6 +260,13 @@ button:hover{
     margin: 0 !important;
   } */
 
+  
+  .glide__slides ul li,.glide__slide > li {
+    width: 100%;
+
+  }
+  
+
 .glide__slides{
     display: flex;
     position: relative;
@@ -696,6 +703,14 @@ font-weight: 400;
 
 @media only screen and (max-width: 1024px){
 
+    .location-cont .location-text h2{
+        font-size: 26px;
+    }
+
+    .location-text h3 {
+        font-size: 18px;
+    }
+
     .buttons div button{
         width: 140px;
         font-size: 14px;
@@ -833,6 +848,8 @@ font-weight: 400;
 
     }
 
+  
+
     .display-mob{
         display: block;
     }
@@ -871,6 +888,9 @@ font-weight: 500;
 @media only screen and (max-width: 768px) {
     nav {
         display: none;
+    }
+    .blog .b1{
+        margin-right: 1%;
     }
 
     .arrow-down-footer{
@@ -970,11 +990,11 @@ font-weight: 400;
         width: 140px;
         font-size: 12px;
     }
-     .glide{
+     /* .glide{
         display: none;
-    }
+    } */
      
-     .posts, .blogs{
+      .blogs{
         display: block;
     }
 

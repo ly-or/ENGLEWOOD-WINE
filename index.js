@@ -1,7 +1,14 @@
   var glide = new Glide('.glide', {
     type: 'carousel',
     startAt: 0,
-    perView: 2
+    perView: 2,
+    breakpoints:  {
+    
+     
+      500: {
+          perView: 1
+      }
+  }
   })
   
   glide.mount()
