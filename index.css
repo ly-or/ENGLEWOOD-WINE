@@ -188,6 +188,9 @@ button:hover{
 .merchant-text{
     width: 25%;
     padding-top: 5%;
+    padding-right: 5%;
+    
+    overflow-x: visible;
 }
 
 
