@@ -749,7 +749,9 @@ font-weight: 400;
         padding: 5% 5% 3% 5%;
     }
 
-    .center-nav-mob h3{
+    .center-nav-mob h3 a{
+        text-decoration: none;
+        color: inherit;
         font-size: 2rem;
         font-weight: 500;
     }
@@ -803,6 +805,7 @@ font-weight: 400;
     }
 
     .mobile-nav .left-nav-mob svg, .mobile-nav .right-nav-mob svg{
+        cursor: pointer;
         margin: 0 2vw;
     }
 
