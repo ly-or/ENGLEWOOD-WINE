@@ -3,8 +3,7 @@
     startAt: 0,
     perView: 2,
     breakpoints:  {
-    
-     
+      
       500: {
           perView: 1
       }

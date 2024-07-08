@@ -69,6 +69,14 @@ nav{
     display: flex;
     align-items: center;
     width: 50%;
+    overflow: visible;
+    transition: 0.3s;
+}
+
+.search:hover{
+    width: 70%;
+    transform: translateX(-20%);
+    animation: ease-in;
 }
 .search input{
     border-radius: 20px;
@@ -76,15 +84,22 @@ nav{
     border: none;
     width: 100%;
     padding: 10px 15px;
+    transition: 0.5s;
 }
+
+.search input:focus {
+    box-shadow: 0px 0px 10px #85d0eb;
+    outline: none;
+    animation: ease-in;
+}
+
+
 
 .search input::placeholder{
     color:rgba(85, 85, 84, 1);
     font-family: Lora;
     font-style: italic;
     font-weight: 500;
-    
- 
 }
 
 .search a svg{
@@ -705,6 +720,7 @@ color: rgba(0, 0, 0, 1);
 .copyright p{
     font-family: Montserrat;
 font-size: 14px;
+line-height: 24px;
 font-weight: 400;
 
 }
@@ -840,8 +856,15 @@ font-weight: 400;
     border: none;
     width: 100%;
     padding: 10px 15px;
+    transition: 0.5s;
     
 }
+.search-field input:focus {
+    outline: none;
+    box-shadow: 0px 4px 10px #c7c7c7;;
+    animation: ease-in;
+}
+
 
 .arrow-down-footer {
     display: inline-block;
@@ -857,7 +880,7 @@ font-weight: 400;
 
 @media only screen and (max-width: 500px) {
     .copyright{
-    padding: 10% 5%;
+    padding: 5% 5% 7% 5%;
 
 }
 
