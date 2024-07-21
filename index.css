@@ -277,10 +277,12 @@ button:hover{
 
 }
 
-.posts{
-    display: none;
+@media only screen and (min-width: 769px){ 
+    
+    .posts{
+        display: none;
+    }
 }
-
 
 
 /* 
@@ -296,6 +298,7 @@ button:hover{
   
 
 .glide__slides{
+    flex-shrink: 1 !important;
     display: flex;
     position: relative;
     height: 400px;
@@ -344,12 +347,14 @@ button:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-shrink: 1 !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: rgba(32, 32, 32, 1);
     background-image: url(bg-spot.svg);
     background-size: contain;
+    width: 50% !important;
     padding: 20px;
 
 
@@ -693,6 +698,7 @@ font-weight: 400;
     line-height: 24px;
     font-weight: 400;
     letter-spacing: -0.5px;
+    word-break: break-word;
     
 }
 
@@ -941,8 +947,6 @@ font-weight: 500;
     
 
 }
-
-
 
 
 
@@ -1197,6 +1201,7 @@ grid-row-gap: 0px;
 
         .description button{
             padding: 5% 10%;
+            background-color: transparent;
         }
         .footer .useful-links {
             display: table;
